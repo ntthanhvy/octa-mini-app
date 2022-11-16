@@ -1,0 +1,17 @@
+{
+  "cwd": "/Users/ntthanhvy/projects/octa-tech/bigM/mini-apps/octa-mini-apps",
+  "newProject": true,
+  "name": "octa-mini-apps",
+  "package": "zmp-ui",
+  "language": "react",
+  "cssPreProcessor": "scss",
+  "template": "single-view",
+  "includeTailwind": true,
+  "theming": {
+    "color": "#007aff",
+    "darkTheme": false,
+    "fillBars": false
+  },
+  "customBuild": false,
+  "stateManagement": "recoil"
+}

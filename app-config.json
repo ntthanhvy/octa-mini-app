@@ -1,14 +1,16 @@
 {
   "app": {
-    "title": "octa-mini-app",
-    "headerColor": "#1843EF",
+    "title": "BigM",
+    "headerColor": "#2563eb",
     "textColor": "white",
-    "statusBarColor": "#1843EF",
-    "leftButton": "back"
+    "statusBarColor": "#2563eb",
+    "leftButton": "both"
   },
-  "debug": false,
+  "debug": true,
   "listCSS": [],
   "listSyncJS": [],
   "listAsyncJS": [],
-  "pages": []
+  "pages": [
+    "cart"
+  ]
 }
