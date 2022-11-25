@@ -1,0 +1,5 @@
+{
+	"API_BASE_URL": "https://0987123456-dev.test.bigm.vn",
+	"IMG_URL": "https://octa-cho-dev.s3.ap-southeast-1.amazonaws.com/test-image/",
+	"RESIZED_IMG_URL": "https://octa-cho-dev-resized.s3.ap-southeast-1.amazonaws.com/test-image/"
+}

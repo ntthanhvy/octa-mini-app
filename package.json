@@ -12,6 +12,7 @@
     "deploy:zalo": "zmp deploy"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.4",
     "@heroicons/react": "^2.0.13",
     "clsx": "^1.2.1",
     "react": "^18.2.0",
@@ -19,6 +20,7 @@
     "react-router-dom": "^6.4.3",
     "recoil": "^0.7.6",
     "zmp-framework": "^1.7.2",
+    "zmp-sdk": "^2.23.1",
     "zmp-ui": "^1.4.3"
   },
   "devDependencies": {
