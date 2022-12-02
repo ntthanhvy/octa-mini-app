@@ -103,17 +103,19 @@ export default () => {
 		<div>
 			{state ? (
 				<>
-					<Image
-						src={state?.imageCode}
-						alt={state?.name}
-						className="w-18 h-18 rounded-md shadow-md"
-					/>{" "}
-					<div>
-						<p className="font-medium">{state.name}</p>
-						<p>{priceFormatter(state.price)}</p>
-						<p>
-							{state.amount} / {state.unit}
-						</p>
+					<div className="flex">
+						<Image
+							src={state?.imageCode}
+							alt={state?.name}
+							className="w-18 h-18 max-h-18 rounded-md shadow-md"
+						/>{" "}
+						<div>
+							<p className="font-medium">{state.name}</p>
+							<p>{priceFormatter(state.price)}</p>
+							<p>
+								{state.amount} / {state.unit}
+							</p>
+						</div>
 					</div>
 					<div className="card">
 						<h3 className="font-medium text-lg">Thông tin giao hàng </h3>

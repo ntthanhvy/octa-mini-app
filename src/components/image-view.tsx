@@ -88,7 +88,7 @@ export const ImageView = ({ images }: IImageView) => {
 											alt={image.imageCode}
 											// layout="fill"
 											// objectFit="cover"
-											className="sm:rounded-md overflow-hidden w-full h-full"
+											className="sm:rounded-md overflow-hidden w-full h-[20em] lg:h-[25em]"
 											size="md"
 										/>
 										<span
